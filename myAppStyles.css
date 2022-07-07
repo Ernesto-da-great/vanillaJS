@@ -1,0 +1,102 @@
+body{
+	margin: 0;
+	font-family: sans-serif;
+}
+
+#time {
+	margin: 20px;
+}
+
+h1{
+	padding: 20px;
+	font-size: 33px;
+	margin-top: -5px;
+	background: linear-gradient(45deg, darkcyan, black);
+	color:  white;
+}
+
+div{
+	font-size: 20px;
+}
+
+section{
+	background: darkcyan;
+	color: white;
+	font-family: monospace;
+	border-radius: 5px;
+	box-shadow: 0 5px 5px -4px black;
+	width: max-content;
+	padding: 10px;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+//
+
+#todo-list-header {
+	color: darkcyan;
+	text-align: center;
+	text-shadow: 0 1px 1px black;
+}
+
+#main-body{
+	width: 40vw;
+	padding: 20px;
+	margin: 0 20px;
+	background-color: white;
+	border: 1px solid darkcyan;
+	border-radius: 5px 5px 0 0;
+	box-shadow: 0 2px 8px -1px black;
+}
+
+input{
+	width: 50%;
+	height: 50px;
+	font-size: 100%;
+	border-style: solid;
+	border-width: 0 0 2px 0;
+
+}
+
+.remove{
+	border: 3px groove red;
+	margin-left: 5px;
+}
+
+#add{
+	height: 50px;
+	border: none;
+	background: darkcyan;
+	border-radius: 0 8px 8px 0;
+	box-shadow: 0 5px 5px -4px black;
+	width: 20%;
+	transition: 0.3s;
+}
+#add:hover{
+	background-color: black;
+	color: white;
+	position: relative;
+	top: 2px;
+	box-shadow: none;
+}
+
+li{
+	font-size: 20px;
+}
+
+.the-list{
+	width: 40vw;
+	padding: 20px;
+	margin: 0 20px;
+	background-color: white;
+	border: 1px solid darkcyan;
+	box-shadow: 0 2px 8px -1px black;
+}
+
+@media screen and (max-width:760px) {
+	#main-body, .the-list{
+		width: auto;
+		border: none;
+		background: lemonchiffon;
+	}
+}
